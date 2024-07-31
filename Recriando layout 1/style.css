@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  background: #2f2e41;
+
+  height: 100vh;
+  
+}
+
+.page {
+  width: 1280px;
+  margin: 0 auto 0;
+  padding-top: 71px;
+
+}
+nav { 
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 106px;
+
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 64px;
+  font-family: "JetBrains Mono", monospace;
+
+}
+
+ul li a {
+text-decoration: none;
+color: white;
+
+}
+
+ul li a:hover {
+  font-weight: bold;
+  color: #00bfa6;
+
+}
+
+h1 { 
+  font-family: "JetBrains Mono", monospace;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  
+}
+
+h1 span {
+  color: #00bfa6;
+}
+
+main {
+  display: flex;
+  gap: 120px;
+  color: white;
+  
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  
+}
+
+.line {
+  width: 568px;
+  height: 1px;
+  background: #00bfa6;
+  justify-content: center;
+  margin: 167px auto 27px;
+
+}
+
+footer {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  justify-items: center;
+  
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #00bfa6;
+  font-weight: bold;
+}
+
+#padlock {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+}
